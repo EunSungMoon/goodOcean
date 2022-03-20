@@ -1,6 +1,13 @@
 #main{
+  margin-top: 6%;
+  min-height: 75vh;
   .flex{
     @include display(center, center);
+  }
+  .title{
+    font-size: 34px;
+    color: $white-color;
+    margin-bottom: 120px;
   }
   .box{
     width: 256px;
@@ -18,5 +25,11 @@
         height: 212px;
       }
     }
+  }
+  .padding15{
+    padding-top: 15px;
+  }
+  .margin52{
+    margin-right: 52px;
   }
 }

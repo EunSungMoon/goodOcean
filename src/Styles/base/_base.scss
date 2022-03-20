@@ -6,3 +6,9 @@ background-size: cover;
 .nopadding{
   padding: 0;
 }
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1200px;
+  }
+}
