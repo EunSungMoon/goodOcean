@@ -10,7 +10,7 @@ function App() {
       <div className='container-fluid nopadding'>
         <Header />
         <Main />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </div>
   );
